@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.slider {
+    height: 100vh;
+}
+
+.slider1 {
+    background-color: #FC98B2;
+    width: 100%;
+}
+
+.slider2 {
+    background-color: #0CA5B0;
+    width: 100%;
+}
+
+.slider3 {
+    background-color: #A4D9FF;
+    width: 100%;
+}
+
+.slider4 {
+    background-color: #FEF6F1;
+    width: 100%;
+}
+
+.slider5 {
+    background-color: #FFF9EF;
+    width: 100%;
+}
+
+.slider6 {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.slider7 {
+    background-color: #f2ecff;
+    width: 100%;
+}
+
+.slider8 {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.slider1 h5 {
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.slider1 .sliderOneImg {
+    width: 500px !important;
+    margin: auto;
+}
+
+.slider2 h5 {
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.slider2 .sliderTwoImg {
+    width: 500px !important;
+    margin: auto;
+}
+
+.slider3 h5 {
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.slider3 .sliderThreeImg {
+    width: 500px !important;
+    margin: auto;
+}
+
+.slider4 h5 {
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.slider4 .sliderFourImg {
+    width: 500px !important;
+    margin: auto;
+}
+
+.slider5 h5 {
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.slider5 .sliderFiveImg {
+    width: 500px !important;
+    margin: auto;
+}
+
+.slider6 h5 {
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.slider6 .sliderSixImg {
+    width: 500px !important;
+    margin: auto;
+}
+
+.slider7 h5 {
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.slider7 p {
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.slider7 .sliderSixImg {
+    width: 300px !important;
+    margin: auto;
+}
+
+.slider8 h5 {
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.slider8 .sliderSevenImg {
+    width: 350px !important;
+    margin: auto;
+}
+
+.slider8 h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace;
+    padding-top: 150px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #000088;
+}
+
+.slider8 h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider8 .logo {
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+}
+
+footer img {
+    margin: auto;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: unset;
+}
+
+@media only screen and (max-width: 600px) {
+    .slider h5 {
+        padding-top: 150px;
+    }
+
+    .slider h1 {
+        padding-top: 150px;
+    }
+
+    .slider8 h5 {
+        padding-top: 20px;
+    }
+
+    .slider1 .sliderOneImg {
+        width: 100% !important;
+    }
+
+    .slider2 .sliderTwoImg {
+        width: 100% !important;
+    }
+
+    .slider3 .sliderThreeImg {
+        width: 100% !important;
+    }
+
+    .slider4 .sliderFourImg {
+        width: 100% !important;
+    }
+
+    .slider5 .sliderFiveImg {
+        width: 100% !important;
+    }
+
+    .slider6 .sliderSixImg {
+        width: 100% !important;
+    }
+
+    .slider8 .sliderSevenImg {
+        width: 100% !important;
+    }
+
+    .slider8 h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: monospace;
+        font-weight: bold;
+    }
+}
+
+
+
+/* DEMO-SPECIFIC STYLES */
+.typed-out {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(100, end),
+        blink-caret .5s step-end infinite;
+    font-size: 26px;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange
+    }
+}
